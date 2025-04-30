@@ -1,0 +1,41 @@
+
+body{
+    margin: 0;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+     
+     background: linear-gradient(to right, #ffe5b4, #fff5cc);;
+    height: 100vh;
+    align-items: center;
+}
+.container{
+   
+   background-color: whitesmoke;
+    padding: 50px;
+   border-radius: 15px;
+   text-align: center;
+   width: 300px;
+}
+.container h1{
+    color: blueviolet;
+    font-size: larger;
+}
+input{
+    outline: none;
+    padding: 5px;
+    margin: 10px;
+}
+#btn{
+    background-color: brown;
+    color: white;
+    padding: 8px 12px;
+    margin: 5px;
+    border: 5px;
+    border-radius: 4px;
+   
+}
+button:hover{
+    cursor: pointer;
+
+}
